@@ -1,0 +1,89 @@
+html, body {
+    height:100%
+}
+
+
+.mynav {
+    transition: top 0.5s ease;
+}
+
+.mynav-hide {
+    top: -56px;
+}
+
+.nav-tabs>li>a:not(.active) {
+    background-color: white!important;
+    color: black!important;
+}
+
+.nav-tabs>li>a.active
+{
+    background-color: black!important;
+    color: white!important;
+}
+
+
+
+.base-cont{
+    padding-top: 55px!important;
+
+}
+
+
+
+.home{
+    vertical-align: middle;
+    text-align: center;
+    height:auto!important;
+    height:92vh!important;
+    background-image: url("res/home4.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}   
+
+
+.list-horizontal {
+    display: inline-flex;
+    list-style: none;
+}
+
+.list-vertical {
+    list-style: none;
+}
+
+.contact{
+    font-size: 1.4rem;
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+.skills{
+    margin-top: 10px;
+    text-align: center;
+    align-items : center;
+}
+
+
+.card{
+    border: none!important;
+    background: none!important;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+
+.card-img-top{
+        vertical-align: middle;
+        border-style: none;
+        height: 10vw;
+        width: 100%;
+        object-fit: contain;
+    
+}
+

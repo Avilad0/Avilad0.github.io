@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avi Lad</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9a1cfffcaf.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    
+    <script>
+        $(window).scroll(function(e) {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 50) {
+                $('.mynav').addClass("mynav-hide");
+            } else {
+                $('.mynav').removeClass("mynav-hide");
+            }
+
+        });
+    </script>
+
+
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy"> 
+    <div class="container-fluid">
+        <ul id="myScrollspy" class="nav fixed-top nav-tabs nav-justified  shadow">
+            <li class="nav-item">
+                <a class="nav-link" href="#home1">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills1">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#certificates1">Certificates</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects1">Projects</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="base-cont d-flex" id="home1">
+        <div class="container rounded-lg home shadow-lg" id="home">
+            <div class="row h-100">
+                <div class="col my-auto">
+                    <h1 class="my-4"><kbd>Avi Lad</kbd></h1>
+                    <h3 class="my-3"><kbd><em>B.Tech. in Computer Engineering</em></kbd></h3>
+                    <h3 class="my-3"><kbd>Natural Language Proceessing | Machine Learning | Deep Learning</kbd></h3>
+                    <h3 class="my-3"><kbd>Computer Vision | Python Development | Mobile App Development</kbd></h3>
+                    <ul class="list-horizontal mt-4 mb-2"> 
+                        <li class="mx-3">
+                            <a target="_blank" href="https://www.linkedin.com/in/avilad0/">
+                                <i class="fab fa-linkedin fa-3x text-body"></i>
+                            </a>
+                        </li>
+                        <li class="mx-3">
+                            <a target="_blank" href="https://github.com/Avilad0/">
+                                <i class="fab fa-github-square fa-3x text-body"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="list-vertical my-1"> 
+                        <li>
+                            <a href="mailto:avilad1010@gmail.com " class="text-body contact"><i class="fas fa-envelope mr-2"></i>avilad1010@gmail.com</a>
+                        </li>
+                        <li class="mx-3">
+                            <a href="tel:+917405544787" class="text-body contact"><i class="fas fa-phone-alt mr-2 "></i>+917405544787</a>
+                        </li>
+                    </ul>
+                </div>
+             </div>          
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Skills -->
+    <div class="base-cont" id="skills1">
+        <div class="container rounded-lg shadow-lg skills" id="skills">
+            <h1><kbd>Skills</kbd></h1>
+            <div class="row m-2">
+                <div class="col">
+                    <div class="card h-100" >
+                        <img class="card-img-top p-1" src="res/skill/android.png" alt="Android Stusio" >
+                        <div class="card-body">
+                        <h4 class="card-title">Android Studio</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100" >
+                        <img class="card-img-top px-1 pt-2" src="res/skill/python.png" alt="Python">
+                        <div class="card-body">
+                        <h4 class="card-title">Python</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card  h-100" >
+                        <img class="card-img-top px-1 pt-2" src="res/skill/cpp.png" alt="C++" >
+                        <div class="card-body">
+                        <h4 class="card-title">C++</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2 " src="res/skill/java.png" alt="Java">
+                        <div class="card-body">
+                        <h4 class="card-title">Java</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/c.png" alt="C">
+                        <div class="card-body">
+                        <h4 class="card-title">C</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/firebase.png" alt="Firebase">
+                        <div class="card-body">
+                        <h4 class="card-title">Firebase</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/git.png" alt="Git">
+                        <div class="card-body">
+                        <h4 class="card-title">Git</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/linux.png" alt="Linux">
+                        <div class="card-body">
+                        <h4 class="card-title">Linux</h4>
+                        </div>
+                    </div>    
+                </div>
+
+
+
+            </div>
+
+            <div class="row m-2">
+                <div class="col">
+                    <div class="card h-100" >
+                        <img class="card-img-top p-1" src="res/skill/tensorflow.png" alt="Tensorflow" >
+                        <div class="card-body">
+                        <h4 class="card-title">Tensorflow</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100" >
+                        <img class="card-img-top px-1 pt-2" src="res/skill/keras.png" alt="Keras">
+                        <div class="card-body">
+                        <h4 class="card-title">Keras</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card  h-100" >
+                        <img class="card-img-top px-1 pt-2 " src="res/skill/sklearn.png" alt="Scikit-learn" >
+                        <div class="card-body">
+                        <h4 class="card-title">Scikit-learn</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/opencv.png" alt="OpenCV">
+                        <div class="card-body">
+                        <h4 class="card-title">OpenCV</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/numpy.svg" alt="Numpy">
+                        <div class="card-body">
+                        <h4 class="card-title">Numpy</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/pandas.png" alt="Pandas">
+                        <div class="card-body">
+                        <h4 class="card-title">Pandas</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/matplotlib.svg" alt="Matplotlib">
+                        <div class="card-body">
+                        <h4 class="card-title">Matplotlib</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/networkx.png" alt="NetworkX">
+                        <div class="card-body">
+                        <h4 class="card-title">NetworkX</h4>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+
+            <div class="row m-2">
+                <div class="col">
+                    <div class="card h-100" >
+                        <img class="card-img-top p-1" src="res/skill/html.png" alt="HTML5" >
+                        <div class="card-body">
+                        <h4 class="card-title">HTML 5</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100" >
+                        <img class="card-img-top px-1 pt-2" src="res/skill/css.png" alt="CSS">
+                        <div class="card-body">
+                        <h4 class="card-title">CSS 3</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card  h-100" >
+                        <img class="card-img-top px-1 pt-2 " src="res/skill/js.png" alt="JavaScript" >
+                        <div class="card-body">
+                        <h4 class="card-title">JavaScript</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card  h-100" >
+                        <img class="card-img-top px-1 pt-2 " src="res/skill/nodejs.png" alt="Node.JS" >
+                        <div class="card-body">
+                        <h4 class="card-title">Node.JS</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/flask.png" alt="Flask">
+                        <div class="card-body">
+                        <h4 class="card-title">Flask</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card  h-100" >
+                        <img class="card-img-top px-1 pt-2 " src="res/skill/sql.jpg" alt="SQL" >
+                        <div class="card-body">
+                        <h4 class="card-title">SQL</h4>
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/php.svg" alt="PHP">
+                        <div class="card-body">
+                        <h4 class="card-title">PHP</h4>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img-top px-1 pt-2" src="res/skill/bootstrap.png" alt="Bootstrap">
+                        <div class="card-body">
+                        <h4 class="card-title">Bootstrap</h4>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="base-cont" id="certificates1">
+        <div class="container rounded-lg home shadow-lg " id="certificates">
+            <h1><span class="badge badge-secondary">Avi Lad</span></h1>
+            <h2><span class="badge badge-secondary">B.Tech. in Computer Engineering</span></h2>
+        </div>
+    </div>    
+    
+
+    <div class="base-cont" id="projects1">
+        <div class="container rounded-lg home shadow-lg " id="projects">
+            <h1><span class="badge badge-secondary">Avi Lad</span></h1>
+            <h2><span class="badge badge-secondary">B.Tech. in Computer Engineering</span></h2>
+        </div>
+    </div>    
+
+</body>
+</html>
