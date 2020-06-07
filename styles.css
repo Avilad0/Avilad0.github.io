@@ -87,3 +87,33 @@ h4{
     
 }
 
+
+.certificate{
+    vertical-align: middle;
+    text-align: center;
+    background-image: url("res/home4.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.certificate-item{
+    opacity: 0.9;
+    display: block;
+    color: rgb(0,0, 0)!important;
+    transition: all .2s ease-in-out;
+}
+
+.certificate-item:hover{
+    color: #0056b3!important;
+    text-decoration: underline!important;
+    transform: scale(0.85);
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
