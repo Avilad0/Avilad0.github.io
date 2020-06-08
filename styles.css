@@ -123,5 +123,16 @@ h4{
 .project{
     vertical-align: middle;
     text-align: center;
-    background-image: linear-gradient(to right bottom, #ffffff 0%, #bbbbbb 20%, #777777 50%,#333333 80%);
+    background-image: linear-gradient(to bottom, #dddddd 0%, #aaaaaa 20%, #888888 50%,#444444 80%);
+}
+
+.project-item{
+    opacity: 0.9;
+    display: block;
+    color: rgb(0,0, 0)!important;
+    transition: all .2s ease-in-out;
+}
+
+.project-item-title{
+    color:#3949ab!important;
 }
