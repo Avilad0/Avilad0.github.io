@@ -117,3 +117,26 @@ h4{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+
+.project{
+    vertical-align: middle;
+    text-align: center;
+    background-image: url(res/home2.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    /*    background-image: linear-gradient(to bottom, #dddddd 0%, #aaaaaa 20%, #999999 60%,#666666 90%);
+*/}
+
+.project-item{
+    opacity: 0.9;
+    display: block;
+    color: rgb(0,0, 0)!important;
+    transition: all .2s ease-in-out;
+}
+
+.project-item-title{
+    color:#3949ab!important;
+}
