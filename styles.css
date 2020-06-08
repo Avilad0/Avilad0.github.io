@@ -117,3 +117,11 @@ h4{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+
+.project{
+    vertical-align: middle;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #ffffff 0%, #bbbbbb 20%, #777777 50%,#333333 80%);
+}
