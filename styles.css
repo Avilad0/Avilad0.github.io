@@ -123,8 +123,12 @@ h4{
 .project{
     vertical-align: middle;
     text-align: center;
-    background-image: linear-gradient(to bottom, #dddddd 0%, #aaaaaa 20%, #888888 50%,#444444 80%);
-}
+    background-image: url(res/home2.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    /*    background-image: linear-gradient(to bottom, #dddddd 0%, #aaaaaa 20%, #999999 60%,#666666 90%);
+*/}
 
 .project-item{
     opacity: 0.9;
