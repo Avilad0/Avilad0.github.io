@@ -1,35 +1,29 @@
+/* main */
 html, body {
     height:100%
 }
 
+/* texts */
 
-.mynav {
-    transition: top 0.5s ease;
-}
 
-.mynav-hide {
-    top: -56px;
-}
-
+/* navbar */
 .nav-tabs>li>a:not(.active) {
     background-color: white!important;
     color: black!important;
 }
 
-.nav-tabs>li>a.active
-{
+.nav-tabs>li>a.active{
     background-color: black!important;
     color: white!important;
 }
 
 
-
+/* outer container */
 .outer-container{
     padding-top: 55px;
 }
 
-
-
+/* home */
 .home{
     vertical-align: middle;
     text-align: center;
@@ -40,7 +34,6 @@ html, body {
     background-repeat: no-repeat; 
     background-size: cover; 
 }   
-
 
 .list-horizontal {
     display: inline-flex;
@@ -59,12 +52,12 @@ a:hover {
     opacity: 0.75;
 }
 
+/* skills */
 .skills{
     margin-top: 10px;
     text-align: center;
     align-items : center;
 }
-
 
 .card{
     border: none!important;
@@ -86,7 +79,7 @@ h4{
     
 }
 
-
+/* certificate */
 .certificate{
     vertical-align: middle;
     text-align: center;
@@ -117,8 +110,7 @@ h4{
     transform: translate(-50%, -50%);
 }
 
-
-
+/* hover */
 .project{
     vertical-align: middle;
     text-align: center;
@@ -126,8 +118,7 @@ h4{
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
-    /*    background-image: linear-gradient(to bottom, #dddddd 0%, #aaaaaa 20%, #999999 60%,#666666 90%);
-*/}
+}
 
 .project-item{
     opacity: 0.9;
