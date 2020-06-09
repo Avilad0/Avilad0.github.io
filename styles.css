@@ -3,17 +3,6 @@ html, body {
     height:100%
 }
 
-a:hover {
-    opacity: 0.75;
-}
-
-/* texts */
-h4{
-    text-align: center;
-    font-size: 1.3rem;
-    white-space: nowrap;
-}
-
 /* navbar */
 .nav-tabs>li>a:not(.active) {
     background-color: white!important;
@@ -25,6 +14,10 @@ h4{
     color: white!important;
 }
 
+
+.nav-tabs a:hover {
+    opacity: 0.70;
+}
 
 /* outer container */
 .outer-container{
@@ -42,6 +35,11 @@ h4{
     background-repeat: no-repeat; 
     background-size: cover; 
 }   
+
+
+.home a:hover {
+    opacity: 0.75;
+}
 
 .list-horizontal {
     display: inline-flex;
@@ -98,6 +96,11 @@ h4{
     background-size: cover; 
 }
 
+
+.certificate a:hover {
+    opacity: 0.7;
+}
+
 .certificate-item{
     opacity: 0.9;
     display: block;
@@ -138,10 +141,13 @@ h4{
 }
 
 .project-item{
-    opacity: 0.9;
     display: block;
+}
+
+.project-item p{
     color: rgb(0,0, 0)!important;
-    transition: all .2s ease-in-out;
+    font-weight: 500;
+    margin: 0%;
 }
 
 .project-item-title{
