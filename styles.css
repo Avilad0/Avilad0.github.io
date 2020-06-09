@@ -3,7 +3,21 @@ html, body {
     height:100%
 }
 
+a:hover {
+    opacity: 0.75;
+}
+
 /* texts */
+h4{
+    text-align: center;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+
+.skills p{
+    font-size:2vh!important;
+    white-space: nowrap!important;
+}
 
 
 /* navbar */
@@ -48,9 +62,6 @@ html, body {
     font-size: 1.4rem;
 }
 
-a:hover {
-    opacity: 0.75;
-}
 
 /* skills */
 .skills{
@@ -64,11 +75,6 @@ a:hover {
     background: none!important;
 }
 
-h4{
-    text-align: center;
-    font-size: 1.3rem;
-    white-space: nowrap;
-}
 
 .card-img-top{
         vertical-align: middle;
