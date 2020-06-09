@@ -14,13 +14,6 @@ h4{
     white-space: nowrap;
 }
 
-.skills p{
-    font-size:2vh!important;
-    white-space: nowrap!important;
-    font-weight: 500;
-}
-
-
 /* navbar */
 .nav-tabs>li>a:not(.active) {
     background-color: white!important;
@@ -44,7 +37,7 @@ h4{
     text-align: center;
     height:auto!important;
     height:92vh!important;
-    background-image: url("res/home4.jpg");
+    background-image: url("res/homebg.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -71,11 +64,20 @@ h4{
     align-items : center;
 }
 
+.skills p{
+    font-size:2vh!important;
+    white-space: nowrap!important;
+    font-weight: 500;
+}
+
 .card{
     border: none!important;
     background: none!important;
 }
 
+.card-img-top:hover{
+    opacity: 0.85!important;
+}
 
 .card-img-top{
         vertical-align: middle;
@@ -90,7 +92,7 @@ h4{
 .certificate{
     vertical-align: middle;
     text-align: center;
-    background-image: url("res/home4.jpg");
+    background-image: url("res/homebg.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -114,14 +116,22 @@ h4{
     position: absolute;
     top: 75%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
+}
+
+.centered p{
+    margin: 0%;
+    font-weight: 500;
+    color:#0D47A1 ;
+    font-size: 1rem;
 }
 
 /* hover */
 .project{
     vertical-align: middle;
     text-align: center;
-    background-image: url(res/home2.jpg);
+    background-image: url(res/pagebg.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
