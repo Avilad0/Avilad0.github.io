@@ -36,18 +36,20 @@ html, body {
     background-size: cover; 
 }   
 
+.home a{
+    color: black!important;
+}
 
 .home a:hover {
     opacity: 0.75;
 }
 
-.list-horizontal {
-    display: inline-flex;
-    list-style: none;
-}
-
-.list-vertical {
-    list-style: none;
+.dwn-btn{
+    background-color: black;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    font-weight: 500;
 }
 
 .contact{
